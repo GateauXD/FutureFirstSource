@@ -8,4 +8,4 @@ This app will try to connect students to others who have experienced the stress 
 ## Users (who it is designed for)
 Currently this app is designed for college students and industry mentors.
 ## Impact (how it is going to help society)
-Students are affected by stress on a daily basis. Many feel alone, lost, and in need of a mentor that can put them back on track. With our app we plan to bridge the gap between mental health and academic success and provide students with an outlet that will lead them towards success. 
+Students are affected by stress on a daily basis. Many feel alone, lost, and in need of a mentor that can put them back on track. With our app we plan to bridge the gap between mental health and academic success and provide students with an outlet that will lead them towards a better future. 
