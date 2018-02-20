@@ -1,4 +1,4 @@
-# SadBoiz
+# FutureFirst
 
 ## App Description (what it does) 
 This app will try to connect students to others who have experienced the stress of school and form a connection and an outlet. These mentors would preferably be from the industry and in the same field as the student.
