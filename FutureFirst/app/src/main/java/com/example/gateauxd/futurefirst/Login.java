@@ -19,7 +19,8 @@ public class Login extends AppCompatActivity {
         Intent startNewActivity = new Intent(this, signUp.class);
         startActivity(startNewActivity);
     }
-    Client socket = new Client("192.168.0.8", 1234);
+
+/*    Client socket = new Client("192.168.0.8", 1234);
     socket.setClientCallback(new Client.ClientCallback () {
         @Override
         public void onMessage(String message) {
@@ -40,7 +41,7 @@ public class Login extends AppCompatActivity {
         }
     });
 
-socket.connect();
+socket.connect(); */
 }
 
 

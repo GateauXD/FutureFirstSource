@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">FutureFirst</string>
     <string name="title_activity_login_screen">LoginScreen</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+    </string-array>
 </resources>
