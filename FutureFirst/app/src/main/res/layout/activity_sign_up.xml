@@ -119,7 +119,50 @@
         android:layout_toRightOf="@+id/genderIcon"
         android:layout_below="@+id/signupEmailAdress"
         ></Spinner>
+    
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/universityIcon"
+        android:layout_below="@+id/genderIcon"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_school_black_24dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/universityIcon"
+        android:layout_toEndOf="@+id/universityIcon"
+        android:layout_toRightOf="@+id/universityIcon"
+        android:backgroundTint="#ffff"
+        android:hint="School or University"
+        android:paddingLeft="20dp"
+        android:textSize="15sp" />
+    <ImageView
+        android:id="@+id/majorDegree"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/universityIcon"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_turned_in_black_24dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/majorDegree"
+        android:layout_toEndOf="@+id/majorDegree"
+        android:layout_toRightOf="@+id/majorDegree"
+        android:backgroundTint="#ffff"
+        android:hint="Major or Carrer"
+        android:paddingLeft="20dp"
+        android:textSize="15sp"
+        android:id="@+id/editText2" />
 
-
-
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Sign UP" />
 </RelativeLayout>
