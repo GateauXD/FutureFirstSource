@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gateauxd.futurefirst.signUp"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Gold"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_assignment_black_24dp"
+            android:drawableRight="@drawable/ic_assignment_black_24dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="SIGN UP"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="44sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayout1">
+
+        <ImageView
+            android:id="@+id/Username"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/Gold"
+            android:src="@drawable/loginicon"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Username"
+            android:layout_alignTop="@+id/Username"
+            android:layout_toRightOf="@+id/Username"
+            android:hint="Username"
+            android:backgroundTint="#ffff"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/Password"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+
+        </RelativeLayout>
+</RelativeLayout>
