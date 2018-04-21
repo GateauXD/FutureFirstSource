@@ -7,13 +7,6 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.squareup.okhttp.Callback;
-import com.squareup.okhttp.MediaType;
-import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.Request;
-import com.squareup.okhttp.RequestBody;
-import com.squareup.okhttp.Response;
-
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -54,7 +47,7 @@ public class signUp extends AppCompatActivity {
     }
 
     void postData(String url) throws IOException{
-        MediaType JSON = MediaType.parse("application/json; charset=utf-8");
+//        MediaType JSON = MediaType.parse("application/json; charset=utf-8");
         Map<String, String> params = new HashMap<String, String>();
 
         params.put("Username", "Dan");
@@ -64,25 +57,25 @@ public class signUp extends AppCompatActivity {
         params.put("School", "University of California Merced");
         params.put("Major", "CSE");
 
-        JSONObject parameter = new JSONObject();
-        OkHttpClient client = new OkHttpClient();
+//        JSONObject parameter = new JSONObject();
+//        OkHttpClient client = new OkHttpClient();
 
-        RequestBody body = RequestBody.create(JSON, parameter.toString());
-        Request request = new Request.Builder()
-                .url(url)
-                .post(body)
-                .addHeader("content-type", "application/json; character=utf-8")
-                .build();
+//        RequestBody body = RequestBody.create(JSON, parameter.toString());
+//        Request request = new Request.Builder()
+//                .url(url)
+//                .post(body)
+//                .addHeader("content-type", "application/json; character=utf-8")
+//                .build();
 
-        client.newCall(request).enqueue(new Callback() {
-            @Override
-            public void onFailure(Request request, IOException e) {
-            }
+//        client.newCall(request).enqueue(new Callback() {
+//            @Override
+//            public void onFailure(Request request, IOException e) {
+//            }
 
-            @Override
-            public void onResponse(Response response) throws IOException {
-                Log.e("response", response.body().string());
-            }
-        });
+//            @Override
+//            public void onResponse(Response response) throws IOException {
+//                Log.e("response", response.body().string());
+//            }
+//        });
     }
 }
