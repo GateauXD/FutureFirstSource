@@ -58,8 +58,8 @@ public class signUp extends AppCompatActivity {
         Map<String, String> params = new HashMap<String, String>();
 
         params.put("Username", "Dan");
-        params.put("Psword", "HugeDong");
-        params.put("Email", "hugedong69@hotmail.com");
+        params.put("Psword", "Password");
+        params.put("Email", "dtran@hotmail.com");
         params.put("Gender", "Male");
         params.put("School", "University of California Merced");
         params.put("Major", "CSE");
