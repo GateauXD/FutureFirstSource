@@ -9,27 +9,27 @@
     <RelativeLayout
         android:id="@+id/UserPageTop"
         android:layout_width="match_parent"
-        android:layout_height="229dp"
-        android:background="@color/colorPrimary">
+        android:layout_height="200dp"
+        android:background="@color/Gold">
 
         <RelativeLayout
             android:id="@+id/UserPicture"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp">
+            android:layout_centerHorizontal="true">
 
-            <ImageView
-                android:layout_width="120dp"
-                android:layout_height="120dp"
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_centerHorizontal="true"
-                android:layout_margin="9dp"
-                android:adjustViewBounds="true"
-                android:padding="3dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/profilepicture" />
-        </RelativeLayout>
+                android:src="@drawable/image"
+                app:civ_border_width="3dp"
+                app:civ_border_color="#FF000000"/>
 
+        </RelativeLayout>
         <TextView
             android:id="@+id/UserName"
             android:layout_width="wrap_content"
@@ -43,22 +43,40 @@
             app:fontFamily="sans-serif"/>
 
         <TextView
+            android:id="@+id/Occupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:textColor="@color/Black"
+            android:layout_below="@id/UserName"
+            android:text="@string/Occupation"
+            app:fontFamily="sans-serif"
+            />
+
+
+        <TextView
             android:id="@+id/UserLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/UserName"
+            android:layout_below="@id/Occupation"
             android:layout_centerHorizontal="true"
             android:padding="4dp"
             android:textAllCaps="true"
             android:text="@string/Location"
-            android:textColor="@color/Grey"
-            android:textSize="15sp"
+            android:textColor="@color/Black"
+            android:textSize="12sp"
             app:fontFamily="sans-serif"/>
     </RelativeLayout>
-    <RelativeLayout
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UserPageTop">
+    <LinearLayout
         android:id="@+id/UserPageBot"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:layout_below="@id/UserPageTop">
 
         <TextView
@@ -67,11 +85,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:textAllCaps="true"
             android:text="About Me:"
+            android:textAllCaps="true"
             android:textColor="@color/Gold"
-            android:textSize="26sp"
-            />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/Bio"
@@ -79,9 +96,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_below="@id/BioHeader"
             android:text="@string/Bio"
-            android:textColor="@color/Black"/>
+            android:textColor="@color/Black" />
         <TextView
             android:id="@+id/InterestsHeader"
             android:layout_width="wrap_content"
@@ -94,6 +110,8 @@
             android:textAllCaps="true"
             android:textSize="25dp"
             android:textColor="@color/Gold"/>
+
+
         <TextView
             android:id="@+id/Interests"
             android:layout_width="wrap_content"
@@ -103,8 +121,27 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:textColor="@color/Black"
-            android:textAllCaps="true"
             android:text="@string/Interests"/>
+
+        <TextView
+            android:id="@+id/ChallengesHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Challenges"
+            android:textSize="25dp"
+            android:textAllCaps="true"
+            android:textColor="@color/Gold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/Black"
+            android:text="@string/Challenges"/>
         <TextView
             android:id="@+id/CurrentEducationHeader"
             android:layout_width="wrap_content"
@@ -113,7 +150,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:layout_below="@id/Interests"
-            android:text="Current Education and Goals:"
+            android:text="Education"
             android:textAllCaps="true"
             android:textSize="25dp"
             android:textColor="@color/Gold"/>
@@ -127,7 +164,15 @@
             android:layout_marginRight="10dp"
             android:textColor="@color/Black"
             android:text="@string/CurrentEducation"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Ask me a question"
+            android:layout_gravity="center"
+            android:background="@color/LightBlue" />
 
-    </RelativeLayout>
-
+    </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
