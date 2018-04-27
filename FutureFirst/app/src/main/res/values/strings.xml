@@ -7,18 +7,16 @@
         <item>Other</item>
 
     </string-array>
-    <string name = "UserName">Dan Tran</string>
-    <string name = "Location">Merced, CA</string>
-    <string name = "Bio">
-        I wanna be the very best. Like no one ever was. To catch them is my real test. To train them is my cause.
-        I will travel across the land Searching far and wide. Teach pokémon to understand, the power that's inside.
-        Pokémon! Gotta catch 'em all. It's you and me I know it's my destiny Pokémon! Oh, you're my best friend.
-        In a world we must defend Pokémon! Gotta catch 'em all. A heart so true. Our courage will pull us through.
-        You teach me, and I'll teach you Pokémon! Gotta catch 'em all, gotta catch 'em all Yeah!
-        Every challenge along the way. With courage I will face I will battle every day To claim my rightful place.
-        Come with me, the time is right There's no better team Arm in arm, we'll win the fight It's always been our dream.
+    <string name="UserName">Sophie Vo</string>
+    <string name="Occupation">Sales at Plaid</string>
+    <string name="Location">Merced, CA</string>
+    <string name="Bio">
+        After college I was looking to work in a fast-paced environment where I could tangibly contribute to the outcome of a company. Plaid sells a fascinating product and is a ground-breaking company in the fintech space in spite of its size– this means that every employee\'s work is really meaningful.
+        I chose to work in sales because the skillset that it imparts is diverse and highly transferable, and the front-lines nature of it means that there's never a dull moment in my day-to-day.
     </string>
-    <string name = "Interests">Programming, Robotics, Sensors, Mobile Apps</string>
-    <string name = "CurrentEducation">Second Year at UC Merced majoring in Computer Science and Engineering. Currently I am
-    uncertain of what I exactly want to do. </string>
+    <string name="Challenges">In middle school and high school, I dealt with terrible social anxiety and tend to shy away from social situations.</string>
+    <string name="Interests">I’m really interested in politics, international economics, technological innovation, and I like discovering new foods and hiking</string>
+    <string name="CurrentEducation">
+        Graduated from UC Merced majoring in MBE with a minor in Political Science\n Founded Model UN Club \nJPMorgan Chase  Co.: Summer Corporate Analyst \nCITRIS and Banatao Institute: Technology and Innovation  intern \nHackMerced: Director of fianance \nAnything covered in guacamole.
+    </string>
 </resources>
