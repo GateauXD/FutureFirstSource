@@ -7,16 +7,14 @@
         <item>Other</item>
 
     </string-array>
-    <string name="UserName">Sophie Vo</string>
-    <string name="Occupation">Sales at Plaid</string>
+    <string name="UserName">John Doe</string>
+    <string name="Occupation">Student</string>
     <string name="Location">Merced, CA</string>
-    <string name="Bio">
-        After college I was looking to work in a fast-paced environment where I could tangibly contribute to the outcome of a company. Plaid sells a fascinating product and is a ground-breaking company in the fintech space in spite of its size– this means that every employee\'s work is really meaningful.
-        I chose to work in sales because the skillset that it imparts is diverse and highly transferable, and the front-lines nature of it means that there's never a dull moment in my day-to-day.
-    </string>
-    <string name="Challenges">In middle school and high school, I dealt with terrible social anxiety and tend to shy away from social situations.</string>
-    <string name="Interests">I’m really interested in politics, international economics, technological innovation, and I like discovering new foods and hiking</string>
+    <string name="Bio">Hey! My name is John Doe and I am currently a Junior attending Bear Creek High. I am hoping to attend a prestigious University in hopes of pursuing a degree Business Economics! The main thing I'm hoping to gain from Future First is a mentor that truly cares about my academics and one that is willing to offer great advice!</string>
+
+    <string name="Interests">My parent\'s have a family business and I want to be able to run the business and carry on the legacy.</string>
+
     <string name="CurrentEducation">
-        Graduated from UC Merced majoring in MBE with a minor in Political Science\n Founded Model UN Club \nJPMorgan Chase  Co.: Summer Corporate Analyst \nCITRIS and Banatao Institute: Technology and Innovation  intern \nHackMerced: Director of fianance \nAnything covered in guacamole.
+            Currently in high school thinking about majoring in business.
     </string>
 </resources>

@@ -45,6 +45,7 @@
             android:drawableLeft="@drawable/loginicon"
             android:layout_marginTop="10dp"
             android:hint="Username"
+            android:inputType="text"
             android:backgroundTint="#ffff"
             android:textSize="15sp" />
     <EditText
@@ -105,6 +106,7 @@
             android:layout_below="@+id/editText2"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="37dp"
+            android:onClick="profile_setup"
             android:text="Sign UP" />
     </LinearLayout>
     </ScrollView>

@@ -5,9 +5,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 
 public class Login extends AppCompatActivity {
+
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +18,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
     }
+
     public void signUp(View view){
         Intent startNewActivity = new Intent(this, signUp.class);
         startActivity(startNewActivity);

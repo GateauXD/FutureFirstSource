@@ -1,9 +1,11 @@
 package com.example.gateauxd.futurefirst;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -51,6 +53,11 @@ public class signUp extends AppCompatActivity {
         }
 
         return signupButton;
+    }
+
+    public void profile_setup(View view){
+        Intent startNewActivity = new Intent(this, profile_Setup.class);
+        startActivity(startNewActivity);
     }
 
     void postData(String url) throws IOException{
